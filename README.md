@@ -1,17 +1,51 @@
-## My Project
 
-TODO: Fill this README out!
+## Setup environment
+<!-- follow https://github.com/OptMN-Lab/fairgrad -->
+<!-- https://github.com/Cranial-XIX/FAMO -->
+<!-- https://github.com/allegro/allRank/tree/master/allrank -->
+aws s3 sync s3://personal-tests/chaosd/DeepMTL2R-dev/ DeepMTL2R/
 
-Be sure to:
+### Setup enviroment for running dmtl2r
+conda create -n dmtl2r python=3.9.7
+source ~/anaconda3/etc/profile.d/conda.sh
+conda activate dmtl2r
 
-* Change the title in this README
-* Edit your repository description on GitHub
+cd DeepMTL2R
+python -m pip install -e . --extra-index-url https://download.pytorch.org/whl/cu113
 
-## Security
+chmod +x *.sh
 
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
+
+### Setup enviroment for plotting and computing HVI
+conda create -n pygmo python=3.9.7
+source ~/anaconda3/etc/profile.d/conda.sh
+conda activate pygmo
+
+cd DeepMTL2R
+pip install -r requirements-hvi.txt
+conda install pygmo
+
+source ~/anaconda3/etc/profile.d/conda.sh
+conda activate pygmo
+
+#### Add a Conda environment to Jupyter Notebook
+conda install ipykernel
+python -m ipykernel install --name pygmo --display-name pygmo
+
+
+## Citation 
+If you use this work, or otherwise found our work valuable, please consider citing the paper:
+
+```
+@article{chaoshengmo-lightgbm2025,
+  title={Deep Multi-task Learning to Rank},
+  author={Dong, Chaosheng and Xiao, Peiyao and Ji, Kaiyi},
+  year={2025}
+}
+
+```
+
 
 ## License
 
 This project is licensed under the Apache-2.0 License.
-
