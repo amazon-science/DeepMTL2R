@@ -60,7 +60,7 @@ We also provide run_2tasks_web30k.sh and run_5tasks_web30k.sh script to run the 
 If you use this work, or otherwise found our work valuable, please consider citing the paper:
 
 ```
-@article{chaoshengmo-lightgbm2025,
+@article{chaoshengdong-deepmtl2r2025,
   title={Deep Multi-task Learning to Rank},
   author={Dong, Chaosheng and Xiao, Peiyao and Ji, Kaiyi},
   year={2025}
