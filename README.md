@@ -2,7 +2,7 @@
 # Deep Multi-task Learning to Rank 
 
 ## Introduction
-DeepMTL2R is a deep learning learning to rank framework used for multi-task learning to rank tasks. It is based on [allRank](https://github.com/allegro/allRank/) and [FAMO](https://github.com/Cranial-XIX/FAMO).
+DeepMTL2R is a deep learning framework used for multi-task learning to rank tasks. 
 
 ## Setup environment
 <!-- follow https://github.com/OptMN-Lab/fairgrad -->
@@ -54,7 +54,14 @@ If you use this work, or otherwise found our work valuable, please consider citi
 
 ```
 
+## Contact
+For any question, you can contact chaosd@amazon.com.
+
 
 ## License
 
 This project is licensed under the Apache-2.0 License.
+
+## Acknowlegement 
+We would like to thank the authors of the following repositories, upon which we built the present codebase:
+[allRank](https://github.com/allegro/allRank/), [FAMO](https://github.com/Cranial-XIX/FAMO), [SDMGrad](https://github.com/OptMN-Lab/sdmgrad/tree/main), [MGDA](https://github.com/isl-org/MultiObjectiveOptimization).
