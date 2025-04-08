@@ -77,5 +77,5 @@ For any question, you can contact chaosd@amazon.com.
 This project is licensed under the Apache-2.0 License.
 
 ## Acknowlegement 
-We would like to thank the authors of the following repositories, upon which we built the present codebase:
-[allRank](https://github.com/allegro/allRank/), [FAMO](https://github.com/Cranial-XIX/FAMO), [SDMGrad](https://github.com/OptMN-Lab/sdmgrad/tree/main), [MGDA](https://github.com/isl-org/MultiObjectiveOptimization).
+We thank authors of the following repositories, upon which we built the present codebase:
+[allRank](https://github.com/allegro/allRank/), [FAMO](https://github.com/Cranial-XIX/FAMO), [SDMGrad](https://github.com/OptMN-Lab/sdmgrad/tree/main), [MGDA](https://github.com/isl-org/MultiObjectiveOptimization), [EPO](https://github.com/dbmptr/EPOSearch), [MO-LightGBM](https://github.com/amazon-science/MO-LightGBM).
