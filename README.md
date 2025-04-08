@@ -54,7 +54,7 @@ CUDA_VISIBLE_DEVICES=0 python main_ntasks.py \
             --dataset-name "original" \
             --reduction-method "mean" 
 ```
-We also provide run_2tasks_web30k.sh and run_5tasks_web30k.sh script to run the experiments in our paper which MSLR30K data and trains Transformer models for two tasks and five tasks, respectively.
+We also provide run_2tasks_web30k.sh and run_5tasks_web30k.sh script to run the experiments in our paper which trains Transformer models on the MSLR30K data for two tasks and five tasks, respectively.
 
 ## Citation 
 If you use this work, or otherwise found our work valuable, please consider citing the paper:
