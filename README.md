@@ -42,6 +42,20 @@ conda install ipykernel
 python -m ipykernel install --name pygmo --display-name pygmo
 ```
 
+## Usage 
+To train the model, configure the experiment in a config.json file. We provide one example using MSLR30K data as follows.
+```
+CUDA_VISIBLE_DEVICES=0 python main_ntasks.py \
+            --config-file-path scripts/local_config_web.json \
+            --output-dir "allrank/run"
+            --task-indices 0,135 \
+            --task-weights 0,10 \
+            --moo-method ls \
+            --dataset-name "original" \
+            --reduction-method "mean" 
+```
+We also provide run_2tasks_web30k.sh and run_5tasks_web30k.sh script to run the experiments in our paper which MSLR30K data and trains Transformer models for two tasks and five tasks, respectively.
+
 ## Citation 
 If you use this work, or otherwise found our work valuable, please consider citing the paper:
 
