@@ -61,7 +61,6 @@ We also provide run_2tasks_web30k.sh and run_5tasks_web30k.sh script to run the 
 ## MTL methods
 
 We support the following MTL methods with a unified API. 
-```
 
 | Method (code name) | Paper (notes) |
 | :---: | :---: |
