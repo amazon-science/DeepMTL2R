@@ -60,7 +60,7 @@ We also provide run_2tasks_web30k.sh and run_5tasks_web30k.sh script to run the 
 
 ## MTL methods
 
-We support the following MTL methods with a unified API. 
+We support the following MTL methods in ```weight_methods.py```. 
 
 | Method (code name) | Paper (notes) |
 | :---: | :---: |
