@@ -85,7 +85,7 @@ We support the following MTL methods in ```weight_methods.py```.
 | Soft Weighted Chebyshev (`soft_wc`) | - (Soft variant of Weighted Chebyshev; specific paper not found) |
 | EPO (`epo`) | [Exact Pareto Optimal Search for Multi-Task Learning](https://arxiv.org/abs/2108.00597) |
 | WC_MGDA (`wc_mgda`) | [A Multi-objective / Multi-task Learning Framework Induced by Pareto Preferences](https://proceedings.mlr.press/v162/momma22a.html) |
-| EC (`ec`) | - (Equivariant Convolution; specific paper not found) |
+| EC (`ec`) | [Multi-objective Relevance Ranking](https://assets.amazon.science/6f/7f/a34aac77415ead5d4d518d5b1801/multi-objective-relevance-ranking.pdf) |
 
 
 ## Citation 
