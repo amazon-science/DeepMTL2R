@@ -64,17 +64,29 @@ We support the following MTL methods in ```weight_methods.py```.
 
 | Method (code name) | Paper (notes) |
 | :---: | :---: |
-| FAMO (`famo`) | [Fast Adaptive Multitask Optimization](https://arxiv.org/abs/2306.03792.pdf) |
-| Nash-MTL (`nashmtl`) | [Multi-Task Learning as a Bargaining Game](https://arxiv.org/pdf/2202.01017v1.pdf) |
-| CAGrad (`cagrad`) | [Conflict-Averse Gradient Descent for Multi-task Learning](https://arxiv.org/pdf/2110.14048.pdf) |
-| PCGrad (`pcgrad`) | [Gradient Surgery for Multi-Task Learning](https://arxiv.org/abs/2001.06782) |
-| IMTL-G (`imtl`) | [Towards Impartial Multi-task Learning](https://openreview.net/forum?id=IMPnRXEWpvr) |
-| MGDA (`mgda`) | [Multi-Task Learning as Multi-Objective Optimization](https://arxiv.org/abs/1810.04650) |
-| DWA (`dwa`) | [End-to-End Multi-Task Learning with Attention](https://arxiv.org/abs/1803.10704) |
+| STL (`stl`) | - (Single Task Learning baseline) |
+| Linear scalarization (`ls`) | - (Equal weighting) |
 | Uncertainty weighting (`uw`) | [Multi-Task Learning Using Uncertainty to Weigh Losses for Scene Geometry and Semantics](https://arxiv.org/pdf/1705.07115v3.pdf) |
-| Linear scalarization (`ls`) | - (equal weighting) |
-| Scale-invariant baseline (`scaleinvls`) | - (see Nash-MTL paper for details) |
+| Scale-invariant baseline (`scaleinvls`) | - (See Nash-MTL paper for details) |
 | Random Loss Weighting (`rlw`) | [A Closer Look at Loss Weighting in Multi-Task Learning](https://arxiv.org/pdf/2111.10603.pdf) |
+| DWA (`dwa`) | [End-to-End Multi-Task Learning with Attention](https://arxiv.org/abs/1803.10704) |
+| PCGrad (`pcgrad`) | [Gradient Surgery for Multi-Task Learning](https://arxiv.org/abs/2001.06782) |
+| MGDA (`mgda`) | [Multi-Task Learning as Multi-Objective Optimization](https://arxiv.org/abs/1810.04650) |
+| GradDrop (`graddrop`) | [Optimizing Deep Multitask Models with Gradient Sign Dropout](https://proceedings.neurips.cc/paper/2020/hash/16002f7a455a94aa4e91cc34ebdb9f2d-Abstract.html) |
+| LOG_MGDA (`log_mgda`) | - (Log-scaled MGDA variant; specific paper not found) |
+| CAGrad (`cagrad`) | [Conflict-Averse Gradient Descent for Multi-task Learning](https://arxiv.org/pdf/2110.14048.pdf) |
+| LOG_CAGrad (`log_cagrad`) | - (Log-scaled CAGrad variant; specific paper not found) |
+| IMTL-G (`imtl`) | [Towards Impartial Multi-task Learning](https://openreview.net/forum?id=IMPnRXEWpvr) |
+| LOG_IMTLG (`log_imtl`) | - (Log-scaled IMTL-G variant; specific paper not found) |
+| Nash-MTL (`nashmtl`) | [Multi-Task Learning as a Bargaining Game](https://arxiv.org/pdf/2202.01017v1.pdf) |
+| FAMO (`famo`) | [Fast Adaptive Multitask Optimization](https://arxiv.org/abs/2306.03792.pdf) |
+| SDMGrad (`sdmgrad`) | [Direction-oriented Multi-objective Learning: Simple and Provable Stochastic Algorithms](https://arxiv.org/abs/2305.18409) |
+| Weighted Chebyshev (`wc`) | [Multi-Objective Optimization for Sparse Deep Multi-Task Learning](https://arxiv.org/abs/2308.12243) |
+| Soft Weighted Chebyshev (`soft_wc`) | - (Soft variant of Weighted Chebyshev; specific paper not found) |
+| EPO (`epo`) | [Exact Pareto Optimal Search for Multi-Task Learning](https://arxiv.org/abs/2108.00597) |
+| WC_MGDA (`wc_mgda`) | [A Multi-objective / Multi-task Learning Framework Induced by Pareto Preferences](https://proceedings.mlr.press/v162/momma22a.html) |
+| EC (`ec`) | - (Equivariant Convolution; specific paper not found) |
+
 
 ## Citation 
 If you use this work, or otherwise found our work valuable, please consider citing the paper:
