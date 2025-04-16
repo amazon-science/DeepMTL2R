@@ -65,9 +65,9 @@ We support the following MTL methods in ```weight_methods.py```.
 | Method (code name) | Paper (notes) |
 | :---: | :---: |
 | STL (`stl`) | - (Single Task Learning baseline) |
-| Linear scalarization (`ls`) | - (Equal weighting) |
+| Linear scalarization (`ls`) | - (Linear scalarization baseline which minimizes $\sum_k w_k\ell_k$) |
 | Uncertainty weighting (`uw`) | [Multi-Task Learning Using Uncertainty to Weigh Losses for Scene Geometry and Semantics](https://arxiv.org/pdf/1705.07115v3.pdf) |
-| Scale-invariant baseline (`scaleinvls`) | - (See Nash-MTL paper for details) |
+| Scale-invariant baseline (`scaleinvls`) | - (Scale-invariant baseline which minimizes $\sum_k w_klog\ell_k$) |
 | Random Loss Weighting (`rlw`) | [A Closer Look at Loss Weighting in Multi-Task Learning](https://arxiv.org/pdf/2111.10603.pdf) |
 | DWA (`dwa`) | [End-to-End Multi-Task Learning with Attention](https://arxiv.org/abs/1803.10704) |
 | PCGrad (`pcgrad`) | [Gradient Surgery for Multi-Task Learning](https://arxiv.org/abs/2001.06782) |
