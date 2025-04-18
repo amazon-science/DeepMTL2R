@@ -43,7 +43,7 @@ python -m ipykernel install --name pygmo --display-name pygmo
 ```
 
 ## Usage 
-To train the model, configure the experiment in a config.json file. The code in allrank provides the core components for model training. The task-specific files in DeepMTL2R uses the core modules to run experiments.
+To train the model, configure the experiment in a config.json file. The code in allrank provides the core components for model training. The task-specific files in DeepMTL2R uses core modules to run experiments.
 
 We provide one example using MSLR30K data as follows.
 ```
