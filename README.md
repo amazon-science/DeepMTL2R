@@ -93,8 +93,8 @@ If you use this work, or otherwise found our work valuable, please consider citi
 
 ```
 @article{chaoshengdong-deepmtl2r2025,
-  title={Deep Multi-task Learning to Rank},
-  author={Dong, Chaosheng and Xiao, Peiyao and Ji, Kaiyi},
+  title={DeepMTL2R: A Library for Deep Multi-task Learning to Rank},
+  author={Dong, Chaosheng and Xiao, Peiyao and Ji, Kaiyi and Martinez, Aleix},
   year={2025}
 }
 
