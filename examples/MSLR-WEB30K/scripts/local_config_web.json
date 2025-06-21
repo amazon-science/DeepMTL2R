@@ -1,0 +1,72 @@
+{
+  "model": {
+    "fc_model": {
+      "sizes": [
+        128
+      ],
+      "input_norm": false,
+      "activation": null,
+      "dropout": 0.0
+    },
+    "transformer": {
+      "N": 4,
+      "d_ff": 512,
+      "h": 4,
+      "positional_encoding": null,
+      "dropout": 0.3
+    },
+    "post_model": {
+      "output_activation": null,
+      "d_output": 1
+    }
+  },
+  "data": {
+    "path": "datasets/MSLR-WEB30K/Fold1_normalized",
+    "validation_ds_role": "vali",
+    "num_workers": 1,
+    "batch_size": 64,
+    "slate_length": 240
+  },
+  "optimizer": {
+    "name": "Adam",
+    "args": {
+      "lr": 0.001
+    }
+  },
+  "lr_scheduler": {
+    "name": "StepLR",
+    "args": {
+      "step_size": 50,
+      "gamma": 0.1
+    }
+  },
+  "training": {
+    "epochs": 50,
+    "early_stopping_patience": 50,
+    "gradient_clipping_norm": null
+  },
+  "val_metric": "ndcg_5",
+  "metrics": [
+     "ndcg_1",
+    "ndcg_5",
+    "ndcg_10",
+      "ndcg_30"
+  ],
+  "loss": {
+    "name": "lambdaLoss",
+    "args": {
+      "weighing_scheme": "ndcgLoss2PP_scheme",
+      "k": null,
+      "mu": 10,
+      "sigma": 1.0,
+      "reduction": "mean"   
+    }
+  },
+  "expected_metrics" : {
+    "val": {
+      "ndcg_5": 0.0001
+    }
+  }
+}
+
+
