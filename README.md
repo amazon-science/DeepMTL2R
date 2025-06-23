@@ -8,7 +8,7 @@ DeepMTL2R is a deep learning framework used for multi-task learning to rank task
 <!-- follow https://github.com/OptMN-Lab/fairgrad -->
 <!-- https://github.com/Cranial-XIX/FAMO -->
 <!-- https://github.com/allegro/allRank/tree/master/allrank -->
-aws s3 sync s3://personal-tests/chaosd/DeepMTL2R-dev/ DeepMTL2R/
+<!-- aws s3 sync s3://personal-tests/chaosd/DeepMTL2R-dev/ DeepMTL2R/ -->
 
 ### Setup enviroment for running dmtl2r
 ```
